@@ -1,0 +1,11 @@
+# TODOs
+- [ ] PermissionUtil to handle all the permission required by the app
+- [ ] FrStorageUtil to fetch config files from firebase storage.
+- [ ] FrRealtimeDbUtil to handle realtime database realted stuff.
+- [ ] Notification util for firebase notifications.
+- [ ] FrRCUtil for remote config related stuff.
+- [ ] Network Util for network related tasks.
+- [ ] InAdsUtil for Interstitial Ads
+- [ ] BanAdsUtils for Banner Ads
+- [ ] Bitmap Util for Bitmap Manipulate and file conversions
+- [ ] Room Database for local database.
