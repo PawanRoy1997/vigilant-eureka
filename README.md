@@ -9,3 +9,6 @@
 - [ ] BanAdsUtils for Banner Ads
 - [ ] Bitmap Util for Bitmap Manipulate and file conversions
 - [ ] Room Database for local database.
+- [ ] Path Manager to Handle all the paths required by the system
+- [ ] Parser to parse the data
+- [ ] FileManagerUtil to handle to operation with files
