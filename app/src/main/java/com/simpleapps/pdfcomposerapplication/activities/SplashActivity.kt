@@ -1,13 +1,15 @@
 package com.simpleapps.pdfcomposerapplication.activities
 
-import com.simpleapps.customlibrary.baseClasses.BareActivity
+import android.annotation.SuppressLint
 import com.simpleapps.pdfcomposerapplication.databinding.ActivitySplashBinding
+import com.simpleapps.simplelibrary.activities.BaseActivity
 
-class SplashActivity : BareActivity<ActivitySplashBinding>() {
-    override fun initView() {
+@SuppressLint("CustomSplashScreen")
+class SplashActivity : BaseActivity<ActivitySplashBinding>() {
+    override fun initViews() {
     }
 
-    override fun createLayout(): ActivitySplashBinding {
+    override fun setView(): ActivitySplashBinding {
         return ActivitySplashBinding.inflate(layoutInflater)
     }
 }
