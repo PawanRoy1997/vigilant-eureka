@@ -13,6 +13,11 @@
         android:theme="@style/Theme.PdfComposerApplication"
         tools:targetApi="31">
         <activity
+            android:name=".activities.SplashActivity"
+            android:exported="false"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.PdfComposerApplication" />
+        <activity
             android:name=".activities.PermissionActivity"
             android:exported="false" />
         <activity
@@ -21,15 +26,6 @@
         <activity
             android:name=".activities.IntroActivity"
             android:exported="false" />
-        <activity
-            android:name=".activities.SplashActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
